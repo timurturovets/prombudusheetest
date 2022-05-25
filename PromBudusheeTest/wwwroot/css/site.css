@@ -1,0 +1,143 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.btn {
+  margin-right: 20px;
+  padding: 1% 3%;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  width: 230px;
+}
+.btn-bright {
+  background-color: #20c997;
+}
+
+.btn-dull {
+  background-color: #6c757d;
+}
+textarea{
+  resize: none;
+  border: 0;
+}
+th{
+  background-color: #2c3034;
+  color: #fcf8e3;
+  font-weight: normal;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+body {
+  font-family:  sans-serif;
+  margin: 0;
+}
+
+.side {
+  margin-top: 70px;
+  height: 100%;
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden; 
+  padding-top: 20px;
+  border-right: 3px darkgray solid;
+}
+
+.side a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.content{
+  margin: 80px 20px 0 170px;
+  padding: 20px;
+}
+
+#terminal{
+  background-color: #e7f1ff;
+}
+
+#terminal p{
+  padding: 20px 0 0 20px;
+}
+
+#terminal-input{
+  display: flex;
+  align-items: flex-start;
+}
+
+#terminal-input *{
+  margin: 0 20px 20px 20px;
+}
+
+#parameters{
+  background-color: #e7f1ff;
+  display: flex;
+}
+
+#parameters div{
+  margin: 0 20px 0 20px;
+}
+
+#parameters input{
+  width: 100%;
+}
+
+.nav {
+  top: 0;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #2c3034;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#buttons{
+  background-color: #e7f1ff;
+  text-align: center;
+  padding: 20px;
+}

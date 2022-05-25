@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="nav">
+        <a href="#">VENDISTA</a>
+        <a href="#">Личный кабинет - отправка команды на терминал</a>
+        <div style="float: right">
+            <a href="#">Партнёр</a>
+        </div>
+    </div>
+<div class="side">
+        <a href="#">Клиенты</a>
+        <a href="#">Пользователи</a>
+        <a href="#">Терминалы</a>
+        <a href="#">TID банка</a>
+        <a href="#">Транзакции</a>
+        <a href="#">Логи терминалов</a>
+        <a href="#">Кассы</a>
+        <a href="#">Привязать терминалы к клиенту списком</a>
+</div>
+
+    <div class="content">
+        @RenderBody()
+    </div>
+
+</body>
+</html>
